@@ -1,0 +1,20 @@
+{
+  "name": "ethgasfetch-use",
+  "version": "1.1.2",
+  "description": "A Node.js script to fetch Ethereum gas prices, block details, and account balances using Infura.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ethGasFetch-use.js"
+  },
+  "dependencies": {
+    "ethereum-gas-fetcher": "^1.0.0",
+    "axios": "^0.24.0",
+    "web3": "^1.6.0"
+  },
+  "author": "octo44",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/octo44/ethGasFetch-use.git"
+  }
+}
